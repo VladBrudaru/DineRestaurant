@@ -1,0 +1,177 @@
+@import "typography.scss";
+@import "colors.scss";
+@import "buttons.scss";
+
+
+
+.home{
+    height: 820px;
+    width:1440px;
+    background-color: black;
+    position: relative;
+    .imagineFundalHome{
+        position: absolute;
+        top: 0;
+        right: 0;
+       
+    }
+    h1 {
+        width: 508px;
+        color: $white;
+        padding-left: 165px;
+        padding-top: 100px;
+        margin-bottom: 0px;
+        position: relative;
+        z-index: 1;
+    }   
+    .text1{
+        padding-left: 165px;
+        width:445px;
+        color: $white;
+        position: relative;
+        z-index: 1;
+    }
+    
+    
+    .logo{
+        padding-left: 167px;
+        padding-top: 65px;
+    }
+    .black{
+        margin-left: 165px;
+        
+    }
+}
+
+.description{
+    width: 1440px;
+    height: 1440px;
+    background-color: $white;
+    position: relative;
+    .rectangle{
+        width: 895px;
+        height: 320px;
+        background-color: $rectangle;
+        border-radius: 0px 100px 0px 0px;
+        opacity: 0.0774;
+        position: absolute;
+        top: 235px;
+    }
+    .peisaj{
+        position: absolute;
+        left:90px;
+        top:-65px;
+        z-index: 1;
+    }
+    
+    .firstH2{
+        width: 445px;
+        color: $ebonyclay;
+        padding-left: 830px;
+        margin-bottom: 0;
+        
+    }
+    .text1{
+        width: 445px;
+        color: $ebonyclay;
+        padding-left: 830px;
+    }
+
+    .line1{
+        padding-left: 830px;
+        padding-top: 177px;
+    }
+
+    .plaiting{
+        position: absolute;
+        bottom: -65px;
+        right: 180px;
+        z-index: 1;
+    }
+    .rectangle2{
+        width: 895px;
+        height: 320px;
+        background-color: $rectangle;
+        border-radius: 100px 0px 0px 0px;
+        opacity: 0.0774;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+    .burgerMenu{
+        position: absolute;
+        bottom: 282px;
+        right: 70px;
+        z-index: 1;
+    }
+    .line2{
+        padding-left: 165px;
+        padding-top: 600px;
+    }
+    .secondH2{
+        width: 445px;
+        color: $ebonyclay;
+        padding-left: 165px;
+        margin-bottom: 0;
+    }
+    .text1_2{
+        width: 445px;
+        color: $ebonyclay;
+        padding-left: 165px;
+    }
+    
+}
+
+.highlights{
+    height: 761px;
+    width: 1440px;
+    background: #111;
+    display: flex;
+    flex-shrink: 0;
+    .intro{
+        width: 445px;
+        color: $white;
+        padding-left: 165px;
+        padding-top: 200px;
+    }
+    .menuItems{
+        width: 720px;
+        color:$white;
+        padding-top: 255px;
+        margin-left:30px ;
+        .thinLine{
+            width: 32px;
+            height: 1px;
+            padding-top: 10px;
+        }
+        .salmon{
+            display:flex;
+            border-bottom: 1px solid rgb(255, 255, 255, 0.1494);
+            padding-bottom: 30px;
+            position: relative;
+        }
+        
+        .beef{
+            display: flex;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid rgb(255, 255, 255, 0.1494);
+            position: relative;
+        }
+        .mousse{
+            display: flex;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            position: relative;
+        }
+        .itemsText{
+            position: absolute;
+            width: 350px;
+            height: 80px;
+            padding-left: 62px;
+            right: 165px;
+            bottom: 65px;
+        }
+    }
+}
+

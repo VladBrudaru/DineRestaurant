@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;800;900&display=swap");
+body {
+  font-family: "League Spartan";
+}
+
+h1 {
+  font-size: 80px;
+  line-height: 80px;
+  font-weight: 300;
+  letter-spacing: -1px;
+  font-family: League Spartan;
+}
+
+h2 {
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: 700;
+  font-family: League Spartan;
+  letter-spacing: -0.5px;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  font-family: League Spartan;
+  letter-spacing: -0.25px;
+}
+
+h4 {
+  font-size: 17px;
+  line-height: 28px;
+  font-weight: bolder;
+  font-family: League Spartan;
+}
+
+.text1 {
+  font-size: 20px;
+  line-height: 30px;
+  font-family: League Spartan;
+  font-weight: 400;
+}
+
+.text2 {
+  font-size: 16px;
+  line-height: 26px;
+  font-family: League Spartan;
+  font-weight: 400;
+}
+
+.text1_2 {
+  font-size: 20px;
+  line-height: 30px;
+  font-family: League Spartan;
+  font-weight: 400;
+}
+
+.black {
+  border: 2px solid white;
+  color: white;
+  height: 64px;
+  width: 245px;
+  background: transparent;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 16px;
+  letter-spacing: 2.5px;
+}
+
+.black:hover {
+  background-color: white;
+  color: black;
+}
+
+.black:disabled {
+  opacity: 0.5;
+}
+
+.white {
+  border: 1px solid black;
+  color: black;
+  height: 64px;
+  width: 170px;
+  background: transparent;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 16px;
+  letter-spacing: 2.5px;
+}
+
+.white:hover {
+  background-color: black;
+  color: white;
+}
+
+.white:disabled {
+  opacity: 0.5;
+}
+
+.home {
+  height: 820px;
+  width: 1440px;
+  background-color: black;
+  position: relative;
+}
+.home .imagineFundalHome {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.home h1 {
+  width: 508px;
+  color: #FFF;
+  padding-left: 165px;
+  padding-top: 100px;
+  margin-bottom: 0px;
+  position: relative;
+  z-index: 1;
+}
+.home .text1 {
+  padding-left: 165px;
+  width: 445px;
+  color: #FFF;
+  position: relative;
+  z-index: 1;
+}
+.home .logo {
+  padding-left: 167px;
+  padding-top: 65px;
+}
+.home .black {
+  margin-left: 165px;
+}
+
+.description {
+  width: 1440px;
+  height: 1440px;
+  background-color: #FFF;
+  position: relative;
+}
+.description .rectangle {
+  width: 895px;
+  height: 320px;
+  background-color: rgb(92, 103, 121);
+  border-radius: 0px 100px 0px 0px;
+  opacity: 0.0774;
+  position: absolute;
+  top: 235px;
+}
+.description .peisaj {
+  position: absolute;
+  left: 90px;
+  top: -65px;
+  z-index: 1;
+}
+.description .firstH2 {
+  width: 445px;
+  color: hsl(218, 21%, 18%);
+  padding-left: 830px;
+  margin-bottom: 0;
+}
+.description .text1 {
+  width: 445px;
+  color: hsl(218, 21%, 18%);
+  padding-left: 830px;
+}
+.description .line1 {
+  padding-left: 830px;
+  padding-top: 177px;
+}
+.description .plaiting {
+  position: absolute;
+  bottom: -65px;
+  right: 180px;
+  z-index: 1;
+}
+.description .rectangle2 {
+  width: 895px;
+  height: 320px;
+  background-color: rgb(92, 103, 121);
+  border-radius: 100px 0px 0px 0px;
+  opacity: 0.0774;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.description .burgerMenu {
+  position: absolute;
+  bottom: 282px;
+  right: 70px;
+  z-index: 1;
+}
+.description .line2 {
+  padding-left: 165px;
+  padding-top: 600px;
+}
+.description .secondH2 {
+  width: 445px;
+  color: hsl(218, 21%, 18%);
+  padding-left: 165px;
+  margin-bottom: 0;
+}
+.description .text1_2 {
+  width: 445px;
+  color: hsl(218, 21%, 18%);
+  padding-left: 165px;
+}
+
+.highlights {
+  height: 761px;
+  width: 1440px;
+  background: #111;
+  display: flex;
+  flex-shrink: 0;
+}
+.highlights .intro {
+  width: 445px;
+  color: #FFF;
+  padding-left: 165px;
+  padding-top: 200px;
+}
+.highlights .menuItems {
+  width: 720px;
+  color: #FFF;
+  padding-top: 255px;
+  margin-left: 30px;
+}
+.highlights .menuItems .thinLine {
+  width: 32px;
+  height: 1px;
+  padding-top: 10px;
+}
+.highlights .menuItems .salmon {
+  display: flex;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1494);
+  padding-bottom: 30px;
+  position: relative;
+}
+.highlights .menuItems .beef {
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1494);
+  position: relative;
+}
+.highlights .menuItems .mousse {
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  position: relative;
+}
+.highlights .menuItems .itemsText {
+  position: absolute;
+  width: 350px;
+  height: 80px;
+  padding-left: 62px;
+  right: 165px;
+  bottom: 65px;
+}/*# sourceMappingURL=main.css.map */
