@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;800;900&display=swap');
-
+@import "colors.scss";
 
 body{
     font-family: "League Spartan";
@@ -32,8 +32,10 @@ h3{
 h4{
     font-size: 17px;
     line-height: 28px;
-    font-weight: bolder;
+    font-weight: 600;
     font-family: League Spartan;
+    letter-spacing: 2.5px;
+    color:$textGray ;
 }
 
 .text1{

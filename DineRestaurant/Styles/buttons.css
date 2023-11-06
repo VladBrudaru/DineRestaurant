@@ -1,6 +1,6 @@
-.black {
+.blackButton {
   border: 2px solid white;
-  color: white;
+  color: #FFF;
   height: 64px;
   width: 245px;
   background: transparent;
@@ -10,32 +10,32 @@
   letter-spacing: 2.5px;
 }
 
-.black:hover {
+.blackButton:hover {
   background-color: white;
   color: black;
 }
 
-.black:disabled {
+.blackButton:disabled {
   opacity: 0.5;
 }
 
-.white {
+.whiteButton {
   border: 1px solid black;
-  color: black;
+  color: white;
   height: 64px;
-  width: 170px;
-  background: transparent;
+  width: 245px;
+  background: black;
   font-weight: 600;
   font-size: 17px;
   line-height: 16px;
   letter-spacing: 2.5px;
 }
 
-.white:hover {
+.whiteButton:hover {
   background-color: black;
   color: white;
 }
 
-.white:disabled {
+.whiteButton:disabled {
   opacity: 0.5;
 }/*# sourceMappingURL=buttons.css.map */

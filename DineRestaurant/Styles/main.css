@@ -30,8 +30,10 @@ h3 {
 h4 {
   font-size: 17px;
   line-height: 28px;
-  font-weight: bolder;
+  font-weight: 600;
   font-family: League Spartan;
+  letter-spacing: 2.5px;
+  color: rgb(76, 76, 76);
 }
 
 .text1 {
@@ -55,9 +57,9 @@ h4 {
   font-weight: 400;
 }
 
-.black {
+.blackButton {
   border: 2px solid white;
-  color: white;
+  color: #FFF;
   height: 64px;
   width: 245px;
   background: transparent;
@@ -67,33 +69,33 @@ h4 {
   letter-spacing: 2.5px;
 }
 
-.black:hover {
+.blackButton:hover {
   background-color: white;
   color: black;
 }
 
-.black:disabled {
+.blackButton:disabled {
   opacity: 0.5;
 }
 
-.white {
+.whiteButton {
   border: 1px solid black;
-  color: black;
+  color: white;
   height: 64px;
-  width: 170px;
-  background: transparent;
+  width: 245px;
+  background: black;
   font-weight: 600;
   font-size: 17px;
   line-height: 16px;
   letter-spacing: 2.5px;
 }
 
-.white:hover {
+.whiteButton:hover {
   background-color: black;
   color: white;
 }
 
-.white:disabled {
+.whiteButton:disabled {
   opacity: 0.5;
 }
 
@@ -128,7 +130,7 @@ h4 {
   padding-left: 167px;
   padding-top: 65px;
 }
-.home .black {
+.home .blackButton {
   margin-left: 165px;
 }
 
@@ -256,4 +258,107 @@ h4 {
   padding-left: 62px;
   right: 165px;
   bottom: 65px;
+}
+
+.familyGathering {
+  width: 1440px;
+  height: 1400px;
+  background-color: #FFF;
+  display: flex;
+}
+.familyGathering .family {
+  height: 809.191px;
+  width: 540px;
+  padding-top: 160px;
+  padding-left: 165px;
+}
+.familyGathering .familyText {
+  width: 445px;
+  padding-top: 175px;
+  padding-left: 125px;
+}
+.familyGathering .rectangle3 {
+  width: 895px;
+  height: 320px;
+  background-color: rgb(92, 103, 121);
+  border-radius: 0px 100px 0px 0px;
+  opacity: 0.0774;
+  position: absolute;
+  left: -350px;
+}
+.familyGathering .burgerMenu2 {
+  width: 160px;
+  height: 76px;
+  position: absolute;
+  padding-top: 122px;
+  padding-left: 120px;
+}
+.familyGathering .whiteButton {
+  margin-bottom: 45px;
+  margin-top: 45px;
+}
+.familyGathering .h4opacity {
+  opacity: 0.5;
+}
+.familyGathering .rectangle4 {
+  width: 95px;
+  height: 1px;
+  background: #9E7F66;
+  position: absolute;
+  margin-top: 603px;
+  margin-left: 705px;
+}
+
+.reservationSection {
+  width: 1440px;
+  height: 1126px;
+  margin-top: -443px;
+  padding-left: -248px;
+}
+.reservationSection .reservationImage {
+  background-color: black;
+  position: relative;
+}
+.reservationSection .reservationImage .blackButton {
+  position: absolute;
+  right: 165px;
+  top: 85px;
+}
+.reservationSection .reservationImage .reservationText {
+  position: absolute;
+  width: 650px;
+  height: 48px;
+  z-index: 1;
+  color: white;
+  left: 165px;
+  top: 55px;
+}
+.reservationSection .contact {
+  width: 1440px;
+  height: 240px;
+  background-color: black;
+  position: relative;
+}
+.reservationSection .address {
+  width: 244px;
+  height: 84px;
+  color: #FFF;
+  position: absolute;
+  left: 461px;
+  top: 55px;
+  z-index: 1;
+}
+.reservationSection .program {
+  width: 446px;
+  height: 84px;
+  color: #FFF;
+  position: absolute;
+  z-index: 1;
+  right: 165px;
+  top: 55px;
+}
+.reservationSection .smallLogo {
+  position: absolute;
+  left: 165px;
+  top: 55px;
 }/*# sourceMappingURL=main.css.map */
