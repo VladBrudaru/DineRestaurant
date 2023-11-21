@@ -72,6 +72,7 @@ h4 {
 .blackButton:hover {
   background-color: white;
   color: black;
+  cursor: pointer;
 }
 
 .blackButton:disabled {
@@ -91,12 +92,57 @@ h4 {
 }
 
 .whiteButton:hover {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
+  cursor: pointer;
 }
 
 .whiteButton:disabled {
   opacity: 0.5;
+}
+
+.reservationButtonWhite {
+  border: 1px solid black;
+  color: #FFF;
+  height: 64px;
+  width: 444px;
+  background: black;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 28px;
+  letter-spacing: 2.5px;
+  text-align: center;
+}
+
+.reservationButtonBlack {
+  border: 2px solid white;
+  color: black;
+  height: 64px;
+  width: 444px;
+  background: transparent;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 28px;
+  letter-spacing: 2.5px;
+  text-align: center;
+}
+
+.menuButton {
+  border: 2px solid white;
+  color: #FFF;
+  height: 64px;
+  width: 245px;
+  background: transparent;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 16px;
+  letter-spacing: 2.5px;
+}
+
+.menuButton:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
 }
 
 .home {
@@ -131,6 +177,9 @@ h4 {
   padding-top: 65px;
 }
 .home .blackButton {
+  margin-left: 165px;
+}
+.home .menuButton {
   margin-left: 165px;
 }
 
@@ -361,4 +410,294 @@ h4 {
   position: absolute;
   left: 165px;
   top: 55px;
+}
+
+.specialEvents {
+  width: 1440px;
+  height: 1400px;
+  background-color: #FFF;
+  display: flex;
+  margin-top: -500px;
+}
+.specialEvents .specialEventsImage {
+  height: 809.191px;
+  width: 540px;
+  padding-top: 160px;
+  padding-left: 165px;
+}
+.specialEvents .specialEventsText {
+  width: 445px;
+  padding-top: 175px;
+  padding-left: 125px;
+}
+.specialEvents .rectangle4 {
+  width: 895px;
+  height: 320px;
+  background-color: rgb(92, 103, 121);
+  border-radius: 0px 100px 0px 0px;
+  opacity: 0.0774;
+  position: absolute;
+  left: -350px;
+}
+.specialEvents .burgerMenu3 {
+  width: 160px;
+  height: 76px;
+  position: absolute;
+  padding-top: 122px;
+  padding-left: 120px;
+}
+.specialEvents .whiteButton {
+  margin-bottom: 45px;
+  margin-top: 45px;
+}
+.specialEvents .h4opacity {
+  opacity: 0.5;
+}
+.specialEvents .rectangle5 {
+  width: 95px;
+  height: 1px;
+  background: #9E7F66;
+  position: absolute;
+  margin-top: 652px;
+  margin-left: 705px;
+}
+
+.socialEvents {
+  width: 1440px;
+  height: 1400px;
+  background-color: #FFF;
+  display: flex;
+  margin-top: -500px;
+}
+.socialEvents .socialEventsImage {
+  height: 809.191px;
+  width: 540px;
+  padding-top: 160px;
+  padding-left: 165px;
+}
+.socialEvents .socialEventsText {
+  width: 445px;
+  padding-top: 175px;
+  padding-left: 125px;
+}
+.socialEvents .rectangle5 {
+  width: 895px;
+  height: 320px;
+  background-color: rgb(92, 103, 121);
+  border-radius: 0px 100px 0px 0px;
+  opacity: 0.0774;
+  position: absolute;
+  left: -350px;
+}
+.socialEvents .burgerMenu4 {
+  width: 160px;
+  height: 76px;
+  position: absolute;
+  padding-top: 122px;
+  padding-left: 120px;
+}
+.socialEvents .whiteButton {
+  margin-bottom: 45px;
+  margin-top: 45px;
+}
+.socialEvents .h4opacity {
+  opacity: 0.5;
+}
+.socialEvents .rectangle6 {
+  width: 95px;
+  height: 1px;
+  background: #9E7F66;
+  position: absolute;
+  margin-top: 732px;
+  margin-left: 705px;
+}
+
+.bookingSection {
+  width: 1440px;
+  height: 1120px;
+  margin-top: -450px;
+  position: relative;
+}
+.bookingSection .bookingImage {
+  position: relative;
+}
+.bookingSection .bookingImage .image {
+  width: 1440px;
+  height: 600px;
+  opacity: 1;
+  position: absolute;
+  filter: brightness(30%);
+}
+.bookingSection .bookingImage .dineLogo {
+  position: absolute;
+  z-index: 1;
+  top: 60px;
+  right: 1170px;
+}
+.bookingSection .bookingImage .bookingText {
+  color: #FFF;
+  position: absolute;
+  width: 445px;
+  height: 80px;
+  left: 170px;
+  top: 150px;
+}
+.bookingSection .bookingRectangle {
+  position: absolute;
+  top: 600px;
+  left: 0px;
+  width: 993px;
+  height: 320px;
+  background-color: rgb(92, 103, 121);
+  border-radius: 0px 0px 100px 0px;
+  opacity: 0.0774;
+}
+.bookingSection .burgerMenuBooking {
+  width: 160px;
+  height: 76px;
+  position: absolute;
+  top: 766px;
+  left: 655px;
+}
+.bookingSection .contactBooking {
+  position: relative;
+  width: 1440px;
+  height: 240px;
+  background-color: black;
+  top: 920px;
+}
+.bookingSection .addressBooking {
+  width: 244px;
+  height: 84px;
+  color: #FFF;
+  position: absolute;
+  left: 461px;
+  top: 55px;
+  z-index: 1;
+}
+.bookingSection .programBooking {
+  width: 446px;
+  height: 84px;
+  color: #FFF;
+  position: absolute;
+  z-index: 1;
+  right: 165px;
+  top: 55px;
+}
+.bookingSection .smallLogoBooking {
+  position: absolute;
+  left: 165px;
+  top: 55px;
+}
+.bookingSection .bookingForm {
+  height: 545px;
+  width: 540px;
+  position: absolute;
+  top: 258px;
+  right: 165px;
+  background-color: #FFF;
+}
+.bookingSection .bookingForm #name {
+  height: 43px;
+  width: 444px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #8E8E8E;
+  margin-top: 50px;
+  margin-left: 48px;
+}
+.bookingSection .bookingForm #email {
+  height: 43px;
+  width: 444px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #8E8E8E;
+  margin-left: 48px;
+  margin-top: 34px;
+}
+.bookingSection .bookingForm .pickDate {
+  display: flex;
+  margin-left: 48px;
+  text-align: center;
+}
+.bookingSection .bookingForm .pickTime {
+  display: flex;
+  margin-left: 48px;
+}
+.bookingSection .bookingForm #day {
+  width: 80px;
+  height: 43px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #8E8E8E;
+  margin-right: 16px;
+  margin-left: 62px;
+}
+.bookingSection .bookingForm #month {
+  width: 80px;
+  height: 43px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #8E8E8E;
+  margin-right: 16px;
+}
+.bookingSection .bookingForm #year {
+  width: 97px;
+  height: 43px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #8E8E8E;
+}
+.bookingSection .bookingForm #hours {
+  width: 80px;
+  height: 43px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #8E8E8E;
+  margin-right: 16px;
+  margin-left: 62px;
+}
+.bookingSection .bookingForm #minutes {
+  width: 80px;
+  height: 43px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #8E8E8E;
+  margin-right: 16px;
+}
+.bookingSection .bookingForm .phoneNumber {
+  display: flex;
+  margin-left: 48px;
+}
+.bookingSection .bookingForm #phoneNumber {
+  width: 180px;
+  height: 43px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #8E8E8E;
+  margin-left: 25px;
+}
+.bookingSection .bookingForm .guestsNumber {
+  display: flex;
+  margin-left: 48px;
+}
+.bookingSection .bookingForm #guests {
+  width: 150px;
+  height: 43px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #8E8E8E;
+  margin-left: 25px;
+}
+.bookingSection .bookingForm .reservationButtonWhite {
+  margin-left: 48px;
 }/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,274 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;800;900&display=swap");
+body {
+  font-family: "League Spartan";
+}
+
+h1 {
+  font-size: 80px;
+  line-height: 80px;
+  font-weight: 300;
+  letter-spacing: -1px;
+  font-family: League Spartan;
+}
+
+h2 {
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: 700;
+  font-family: League Spartan;
+  letter-spacing: -0.5px;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  font-family: League Spartan;
+  letter-spacing: -0.25px;
+}
+
+h4 {
+  font-size: 17px;
+  line-height: 28px;
+  font-weight: 600;
+  font-family: League Spartan;
+  letter-spacing: 2.5px;
+  color: rgb(76, 76, 76);
+}
+
+.text1 {
+  font-size: 20px;
+  line-height: 30px;
+  font-family: League Spartan;
+  font-weight: 400;
+}
+
+.text2 {
+  font-size: 16px;
+  line-height: 26px;
+  font-family: League Spartan;
+  font-weight: 400;
+}
+
+.text1_2 {
+  font-size: 20px;
+  line-height: 30px;
+  font-family: League Spartan;
+  font-weight: 400;
+}
+
+.blackButton {
+  border: 2px solid white;
+  color: #FFF;
+  height: 64px;
+  width: 245px;
+  background: transparent;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 16px;
+  letter-spacing: 2.5px;
+}
+
+.blackButton:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.blackButton:disabled {
+  opacity: 0.5;
+}
+
+.whiteButton {
+  border: 1px solid black;
+  color: white;
+  height: 64px;
+  width: 245px;
+  background: black;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 16px;
+  letter-spacing: 2.5px;
+}
+
+.whiteButton:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.whiteButton:disabled {
+  opacity: 0.5;
+}
+
+.reservationButtonWhite {
+  border: 1px solid black;
+  color: #FFF;
+  height: 64px;
+  width: 444px;
+  background: black;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 28px;
+  letter-spacing: 2.5px;
+  text-align: center;
+}
+
+.reservationButtonBlack {
+  border: 2px solid white;
+  color: black;
+  height: 64px;
+  width: 444px;
+  background: transparent;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 28px;
+  letter-spacing: 2.5px;
+  text-align: center;
+}
+
+body {
+  padding-left: 150px;
+  padding-right: 150px;
+  background-image: url("Images/Rimage.png");
+}
+
+.header {
+  background-color: hsl(27, 22%, 51%);
+  height: 200px;
+  position: relative;
+  border-radius: 30px;
+}
+.header .logo {
+  position: absolute;
+  left: 80px;
+  top: 70px;
+}
+.header .blackButton {
+  position: absolute;
+  top: 70px;
+  right: 80px;
+}
+
+.snacks {
+  position: relative;
+}
+.snacks .snacksTitle {
+  position: absolute;
+  left: 400px;
+}
+.snacks .snacksItems {
+  position: absolute;
+  top: 200px;
+  left: 150px;
+}
+.snacks .snacksItems .olives {
+  position: absolute;
+  top: 0px;
+  right: -350px;
+}
+
+.starters {
+  position: relative;
+}
+.starters .startersTitle {
+  position: absolute;
+  left: 380px;
+  top: 500px;
+}
+.starters .startersItems {
+  position: absolute;
+  left: 150px;
+  top: 700px;
+}
+.starters .startersItems .moules {
+  position: absolute;
+  top: 0px;
+  right: -500px;
+}
+.starters .startersItems .mojitoSalmon {
+  position: absolute;
+  top: 150px;
+  right: -500px;
+}
+
+.mains {
+  position: relative;
+}
+.mains .mainsTitle {
+  position: absolute;
+  left: 450px;
+  top: 1150px;
+}
+.mains .mainsItems {
+  position: absolute;
+  left: 150px;
+  top: 1400px;
+}
+.mains .mainsItems .venison {
+  position: absolute;
+  top: 0;
+  right: -500px;
+}
+.mains .mainsItems .papardelle {
+  position: absolute;
+  top: 170px;
+  right: -500px;
+}
+.mains .mainsItems .lamb {
+  position: absolute;
+  top: 340px;
+  right: -500px;
+}
+
+.sides {
+  position: relative;
+}
+.sides .sidesTitle {
+  position: absolute;
+  left: 450px;
+  top: 2050px;
+}
+.sides .sidesItems {
+  position: absolute;
+  left: 150px;
+  top: 2300px;
+}
+.sides .sidesItems .potatoes {
+  position: absolute;
+  top: 0px;
+  right: -500px;
+}
+.sides .sidesItems .kale {
+  position: absolute;
+  top: 120px;
+  right: -585px;
+}
+
+.desserts {
+  position: relative;
+}
+.desserts .dessertsTitle {
+  position: absolute;
+  left: 400px;
+  top: 2600px;
+}
+.desserts .dessertsItems {
+  position: absolute;
+  left: 150px;
+  top: 2850px;
+}
+.desserts .dessertsItems .lemon {
+  position: absolute;
+  top: 0px;
+  right: -500px;
+}
+.desserts .dessertsItems .icecreams {
+  position: absolute;
+  top: 150px;
+  right: -450px;
+}
+
+.text2 {
+  width: 300px;
+}/*# sourceMappingURL=menu.css.map */

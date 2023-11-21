@@ -1,0 +1,150 @@
+@import "typography.scss";
+@import "colors.scss";
+@import "buttons.scss";
+
+
+body{
+    padding-left: 150px;
+    padding-right: 150px;
+    background-image: url("Images/Rimage.png");
+}
+.header{
+    background-color: $beaver;
+    height: 200px;
+    position: relative;
+    border-radius: 30px;
+    .logo{
+        position: absolute;
+        left: 80px;
+        top: 70px;
+    }
+    .blackButton{
+        position: absolute;
+        top: 70px;
+        right: 80px;
+    }
+}
+
+.snacks{
+    position: relative;  
+    .snacksTitle{
+        position: absolute;
+        left: 400px;
+    }
+    .snacksItems{
+        position: absolute;
+        top: 200px;
+        left: 150px;
+        .olives{
+            position: absolute;
+            top: 0px;
+            right: -350px;
+        }
+    }
+}
+
+.starters{
+    position: relative;
+    .startersTitle{
+        position: absolute;
+        left: 380px;
+        top: 500px;
+    }
+    .startersItems{
+        position: absolute;
+        left: 150px;
+        top: 700px;
+        .moules{
+            position: absolute;
+            top: 0px;
+            right: -500px;
+        }
+        .mojitoSalmon{
+            position: absolute;
+            top: 150px;
+            right: -500px;
+        }
+    }
+}
+
+.mains{
+    position: relative;
+    .mainsTitle{
+        position: absolute;
+        left: 450px;
+        top: 1150px;
+    }
+    .mainsItems{
+        position: absolute;
+        left: 150px;
+        top: 1400px;
+        .venison{
+            position: absolute;
+            top: 0;
+            right: -500px;
+           
+        }
+        .papardelle{
+            position: absolute;
+            top: 170px;
+            right: -500px;
+        }
+        .lamb{
+            position: absolute;
+            top: 340px;
+            right: -500px;
+        }
+    }
+}
+
+.sides{
+    position: relative;
+    .sidesTitle{
+        position: absolute;
+        left: 450px;
+        top: 2050px;
+    }
+    .sidesItems{
+        position: absolute;
+        left: 150px;
+        top: 2300px;
+        .potatoes{
+            position: absolute;
+            top: 0px;
+            right: -500px;
+        }
+        .kale{
+            position: absolute;
+            top: 120px;
+            right: -585px;
+        }
+    }
+}
+
+.desserts{
+    position: relative;
+    .dessertsTitle{
+        position: absolute;
+        left: 400px;
+        top: 2600px;
+    }
+    .dessertsItems{
+        position: absolute;
+        left: 150px;
+        top: 2850px;
+        .lemon{
+            position: absolute;
+            top: 0px;
+            right: -500px;
+        }
+        .icecreams{
+            position: absolute;
+            top: 150px;
+            right: -450px;
+        }
+    }
+}
+
+.text2{
+    width: 300px;
+}

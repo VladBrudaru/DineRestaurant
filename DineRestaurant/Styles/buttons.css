@@ -13,6 +13,7 @@
 .blackButton:hover {
   background-color: white;
   color: black;
+  cursor: pointer;
 }
 
 .blackButton:disabled {
@@ -32,10 +33,55 @@
 }
 
 .whiteButton:hover {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
+  cursor: pointer;
 }
 
 .whiteButton:disabled {
   opacity: 0.5;
+}
+
+.reservationButtonWhite {
+  border: 1px solid black;
+  color: #FFF;
+  height: 64px;
+  width: 444px;
+  background: black;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 28px;
+  letter-spacing: 2.5px;
+  text-align: center;
+}
+
+.reservationButtonBlack {
+  border: 2px solid white;
+  color: black;
+  height: 64px;
+  width: 444px;
+  background: transparent;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 28px;
+  letter-spacing: 2.5px;
+  text-align: center;
+}
+
+.menuButton {
+  border: 2px solid white;
+  color: #FFF;
+  height: 64px;
+  width: 245px;
+  background: transparent;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 16px;
+  letter-spacing: 2.5px;
+}
+
+.menuButton:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
 }/*# sourceMappingURL=buttons.css.map */
