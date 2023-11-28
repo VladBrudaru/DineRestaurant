@@ -17,17 +17,19 @@
     h1 {
         width: 508px;
         color: $white;
-        padding-left: 165px;
-        padding-top: 100px;
         margin-bottom: 0px;
-        position: relative;
+        position: absolute;
+        top: 150px;
+        left: 165px;
         z-index: 1;
     }
     .text1{
-        padding-left: 165px;
         width:445px;
+        height: 60px;
         color: $white;
-        position: relative;
+        position: absolute;
+        top: 370px;
+        left: 165px;
         z-index: 1;
     }
     
@@ -37,11 +39,15 @@
         padding-top: 65px;
     }
     .blackButton{
-        margin-left: 165px;
+        position: absolute;
+        top: 500px;
+        left: 165px;
         
     }
     .menuButton{
-        margin-left: 165px;
+        position: absolute;
+        top: 600px;
+        left: 165px;
     }
 }
 
@@ -214,6 +220,9 @@
         margin-top: 45px;
     }
     .h4opacity{
+        opacity: 0.5;
+    }
+    .h4opacity_1{
         opacity: 0.5;
     }
     .rectangle4{

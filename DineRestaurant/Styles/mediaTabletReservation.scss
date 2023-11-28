@@ -1,0 +1,182 @@
+@media only screen and (max-width: 1080px){
+    @import "typography.scss";
+    @import "colors.scss";
+    @import "buttons.scss";
+
+    .bookingSection{
+        width: 768px;
+        .bookingImage{
+            position: relative;
+            .image{
+                width: 768px;
+                opacity: 1;
+                filter: brightness(30%);
+            }
+            .dineLogo{
+                position: absolute;
+                z-index: 1;
+                top: 40px;
+                left: 30px;
+            }
+            .bookingText{
+                color: $white;
+                position: absolute;
+                width: 573px;
+                height: 80px;
+                left: 110px;
+                top:60px;
+                text-align: center;
+            }
+        }
+        .bookingRectangle{
+            display: none;
+        }
+        .burgerMenuBooking{
+            display: none;
+        }
+        .bookingForm{
+            height: 545px;
+            width: 540px;
+            position: absolute;
+            top: 400px;
+            left: 110px;
+            background-color: $white;
+            #name{
+                height: 43px;
+                width: 444px;
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                border-bottom: 1px solid #8E8E8E;
+                margin-top: 50px;
+                margin-left: 48px;
+            }
+            #email{
+                height: 43px;
+                width: 444px;
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                border-bottom: 1px solid #8E8E8E;
+                margin-left: 48px;
+                margin-top: 34px;
+            }
+            .pickDate{
+                display: flex;
+                margin-left: 48px;
+                text-align: center;
+            }
+            .pickTime{
+                display: flex;
+                margin-left: 48px;
+            }
+            #day{
+                width: 80px;
+                height: 43px;
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                border-bottom: 1px solid #8E8E8E;
+                margin-right: 16px;
+                margin-left: 62px;
+            }
+            #month{
+                width: 80px;
+                height: 43px;
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                border-bottom: 1px solid #8E8E8E;
+                margin-right: 16px;
+            }
+            #year{
+                width: 97px;
+                height: 43px;
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                border-bottom: 1px solid #8E8E8E;
+                
+            }
+            #hours{
+                width: 80px;
+                height: 43px;
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                border-bottom: 1px solid #8E8E8E;
+                margin-right: 16px;
+                margin-left: 62px;
+            }
+            #minutes{
+                width: 80px;
+                height: 43px;
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                border-bottom: 1px solid #8E8E8E;
+                margin-right: 16px;
+            }
+            .phoneNumber{
+                display: flex;
+                margin-left: 48px;
+            }
+            #phoneNumber{
+                width: 180px;
+                height: 43px;
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                border-bottom: 1px solid #8E8E8E;
+                margin-left: 25px;
+            }
+            .guestsNumber{
+                display: flex;
+                margin-left: 48px;
+            }
+            #guests{
+                width: 150px;
+                height: 43px;
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                border-bottom: 1px solid #8E8E8E;
+                margin-left: 25px;
+            }
+            .reservationButtonWhite{
+                margin-left: 48px;
+            }
+        }
+        .contactBooking{
+            position: relative;
+            width: 768px;
+            height: 328px;
+            background-color:black;
+            top: 1000px;
+        }
+        .addressBooking{
+            width: 244px;
+            height: 84px;
+            color: $white;
+            position: absolute;
+            left: 300px;
+            top: 54px;
+            z-index: 1;
+        }
+        .programBooking{
+            width: 446px;
+            height: 84px;
+            color: $white;
+            position: absolute;
+            z-index: 1;
+            left: 300px;
+            top: 200px;
+        }
+        .smallLogoBooking{
+            position: absolute;
+            left: 39px;
+            top: 64px;
+        }
+    }
+
+}

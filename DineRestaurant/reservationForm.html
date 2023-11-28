@@ -3,6 +3,7 @@
     <head>
         <title>Dine Restaurant</title>
         <link rel="stylesheet" href="Styles/reservationForm.css">
+        <link rel="stylesheet" href="Styles/mediaTabletReservation.css">
     <body>
         <section class="bookingSection">
             <div class="bookingImage">
@@ -34,9 +35,9 @@
                 </div>
             </div>
             <form class="bookingForm">
-                <input type="text" id="name" name="name" placeholder="Name">
+                <input type="text" id="name"  name="name" placeholder="Name" ><span id="msg1"></span>
                 <br>
-                <input type="text" id="email" name="email" placeholder="Email">
+                <input type="text" id="email" name="email" placeholder="Email"><span id="msg2"></span>
                 <br>
                 <div class="pickDate">
                     <p class="text1">Pick a date</p> 
@@ -52,7 +53,7 @@
                 </div>
                 <div class="phoneNumber">
                     <p class="text1">Phone number:</p>
-                    <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="Telephone Number" maxlength="10">
+                    <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="Telephone Number" maxlength="10"><span id="msg3"></span>
                 </div>
                 <div class="guestsNumber">
                     <p class="text1">Number of Guests:</p>
@@ -63,4 +64,5 @@
                 
             </form>
         </section>
+        <script src="JavaScript/reservationForm.js"></script>
     </body>

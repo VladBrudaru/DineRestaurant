@@ -127,6 +127,30 @@ h4 {
   text-align: center;
 }
 
+.reservationButtonWhite:hover {
+  background-color: #FFF;
+  cursor: pointer;
+  color: black;
+}
+
+.menuButton {
+  border: 2px solid white;
+  color: #FFF;
+  height: 64px;
+  width: 245px;
+  background: transparent;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 16px;
+  letter-spacing: 2.5px;
+}
+
+.menuButton:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
 .bookingSection {
   width: 1440px;
   height: 1120px;

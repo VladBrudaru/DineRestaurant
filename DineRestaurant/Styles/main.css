@@ -127,6 +127,12 @@ h4 {
   text-align: center;
 }
 
+.reservationButtonWhite:hover {
+  background-color: #FFF;
+  cursor: pointer;
+  color: black;
+}
+
 .menuButton {
   border: 2px solid white;
   color: #FFF;
@@ -159,17 +165,19 @@ h4 {
 .home h1 {
   width: 508px;
   color: #FFF;
-  padding-left: 165px;
-  padding-top: 100px;
   margin-bottom: 0px;
-  position: relative;
+  position: absolute;
+  top: 150px;
+  left: 165px;
   z-index: 1;
 }
 .home .text1 {
-  padding-left: 165px;
   width: 445px;
+  height: 60px;
   color: #FFF;
-  position: relative;
+  position: absolute;
+  top: 370px;
+  left: 165px;
   z-index: 1;
 }
 .home .logo {
@@ -177,10 +185,14 @@ h4 {
   padding-top: 65px;
 }
 .home .blackButton {
-  margin-left: 165px;
+  position: absolute;
+  top: 500px;
+  left: 165px;
 }
 .home .menuButton {
-  margin-left: 165px;
+  position: absolute;
+  top: 600px;
+  left: 165px;
 }
 
 .description {
@@ -347,6 +359,9 @@ h4 {
   margin-top: 45px;
 }
 .familyGathering .h4opacity {
+  opacity: 0.5;
+}
+.familyGathering .h4opacity_1 {
   opacity: 0.5;
 }
 .familyGathering .rectangle4 {

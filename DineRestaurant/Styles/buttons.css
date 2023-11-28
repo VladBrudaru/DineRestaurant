@@ -68,6 +68,12 @@
   text-align: center;
 }
 
+.reservationButtonWhite:hover {
+  background-color: #FFF;
+  cursor: pointer;
+  color: black;
+}
+
 .menuButton {
   border: 2px solid white;
   color: #FFF;

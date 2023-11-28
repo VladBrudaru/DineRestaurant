@@ -1,0 +1,570 @@
+@media only screen and (max-width: 1080px) {
+  @import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;800;900&display=swap");
+  body {
+    font-family: "League Spartan";
+  }
+  h1 {
+    font-size: 80px;
+    line-height: 80px;
+    font-weight: 300;
+    letter-spacing: -1px;
+    font-family: League Spartan;
+  }
+  h2 {
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 700;
+    font-family: League Spartan;
+    letter-spacing: -0.5px;
+  }
+  h3 {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    font-family: League Spartan;
+    letter-spacing: -0.25px;
+  }
+  h4 {
+    font-size: 17px;
+    line-height: 28px;
+    font-weight: 600;
+    font-family: League Spartan;
+    letter-spacing: 2.5px;
+    color: rgb(76, 76, 76);
+  }
+  .text1 {
+    font-size: 20px;
+    line-height: 30px;
+    font-family: League Spartan;
+    font-weight: 400;
+  }
+  .text2 {
+    font-size: 16px;
+    line-height: 26px;
+    font-family: League Spartan;
+    font-weight: 400;
+  }
+  .text1_2 {
+    font-size: 20px;
+    line-height: 30px;
+    font-family: League Spartan;
+    font-weight: 400;
+  }
+  .blackButton {
+    border: 2px solid white;
+    color: #FFF;
+    height: 64px;
+    width: 245px;
+    background: transparent;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 16px;
+    letter-spacing: 2.5px;
+  }
+  .blackButton:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+  }
+  .blackButton:disabled {
+    opacity: 0.5;
+  }
+  .whiteButton {
+    border: 1px solid black;
+    color: white;
+    height: 64px;
+    width: 245px;
+    background: black;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 16px;
+    letter-spacing: 2.5px;
+  }
+  .whiteButton:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+  }
+  .whiteButton:disabled {
+    opacity: 0.5;
+  }
+  .reservationButtonWhite {
+    border: 1px solid black;
+    color: #FFF;
+    height: 64px;
+    width: 444px;
+    background: black;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 28px;
+    letter-spacing: 2.5px;
+    text-align: center;
+  }
+  .reservationButtonBlack {
+    border: 2px solid white;
+    color: black;
+    height: 64px;
+    width: 444px;
+    background: transparent;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 28px;
+    letter-spacing: 2.5px;
+    text-align: center;
+  }
+  .reservationButtonWhite:hover {
+    background-color: #FFF;
+    cursor: pointer;
+    color: black;
+  }
+  .menuButton {
+    border: 2px solid white;
+    color: #FFF;
+    height: 64px;
+    width: 245px;
+    background: transparent;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 16px;
+    letter-spacing: 2.5px;
+  }
+  .menuButton:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+  }
+  .home {
+    width: 768px;
+    height: 992px;
+    background-color: black;
+    position: relative;
+  }
+  .home .imagineFundalHome {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 768px;
+    height: 373px;
+  }
+  .home .logo {
+    position: absolute;
+    top: 320px;
+    left: 180px;
+  }
+  .home h1 {
+    width: 500px;
+    height: 128px;
+    color: #FFF;
+    top: 400px;
+    left: 150px;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+  }
+  .home .text1 {
+    width: 573px;
+    color: #FFF;
+    position: absolute;
+    top: 600px;
+    left: 120px;
+    z-index: 1;
+    text-align: center;
+  }
+  .home .blackButton {
+    position: absolute;
+    top: 720px;
+    left: 280px;
+  }
+  .home .menuButton {
+    position: absolute;
+    top: 800px;
+    left: 280px;
+  }
+  .description {
+    width: 768px;
+  }
+  .description .peisaj {
+    width: 574px;
+    height: 400px;
+  }
+  .description .rectangle {
+    width: 380px;
+    height: 320px;
+    background-color: rgb(92, 103, 121);
+    opacity: 0.0774;
+    position: absolute;
+    top: 235px;
+  }
+  .description .line1 {
+    position: absolute;
+    top: 200px;
+    left: -480px;
+  }
+  .description .firstH2 {
+    width: 445px;
+    color: hsl(218, 21%, 18%);
+    position: absolute;
+    top: 380px;
+    left: -650px;
+    text-align: center;
+  }
+  .description .text1 {
+    width: 445px;
+    color: hsl(218, 21%, 18%);
+    position: absolute;
+    left: -650px;
+    top: 510px;
+    text-align: center;
+  }
+  .description .plaiting {
+    width: 574px;
+    height: 400px;
+    position: absolute;
+    left: 100px;
+    top: 680px;
+  }
+  .description .line2 {
+    position: absolute;
+    top: 550px;
+    left: 170px;
+  }
+  .description .secondH2 {
+    width: 445px;
+    color: hsl(218, 21%, 18%);
+    position: absolute;
+    top: 1150px;
+    left: 0px;
+    text-align: center;
+  }
+  .description .text1_2 {
+    width: 445px;
+    color: hsl(218, 21%, 18%);
+    position: absolute;
+    top: 1270px;
+    left: 0px;
+    text-align: center;
+  }
+  .description .rectangle2 {
+    width: 400px;
+    height: 320px;
+    background-color: rgb(92, 103, 121);
+    border-radius: 100px 0px 0px 0px;
+    opacity: 0.0774;
+    position: absolute;
+    right: 0px;
+    bottom: 0;
+  }
+  .description .burgerMenu {
+    position: absolute;
+    bottom: 450px;
+    right: 50px;
+    z-index: 1;
+  }
+  .highlights {
+    width: 768px;
+    height: 891px;
+    position: relative;
+  }
+  .highlights .intro {
+    position: absolute;
+    left: 10px;
+    top: -150px;
+    height: 50px;
+    text-align: center;
+  }
+  .highlights .menuItems {
+    position: absolute;
+    bottom: 5px;
+    left: 100px;
+  }
+  .familyGathering {
+    width: 768px;
+    position: relative;
+  }
+  .familyGathering .family, .familyGathering img {
+    position: absolute;
+    width: 574px;
+    height: 400px;
+    left: 50px;
+    top: 25px;
+  }
+  .familyGathering .rectangle3 {
+    width: 400px;
+    height: 320px;
+    background-color: rgb(92, 103, 121);
+    border-radius: 0px 100px 0px 0px;
+    opacity: 0.0774;
+    position: absolute;
+    left: 0px;
+  }
+  .familyGathering .burgerMenu2 {
+    width: 160px;
+    height: 76px;
+    position: absolute;
+    top: -50px;
+    left: -70px;
+    z-index: 1;
+  }
+  .familyGathering .familyText {
+    position: absolute;
+    top: 380px;
+    left: 50px;
+    text-align: center;
+  }
+  .familyGathering h4 {
+    position: absolute;
+    top: 80px;
+    left: -10px;
+  }
+  .familyGathering .h4opacity {
+    opacity: 0.5;
+    left: 260px;
+  }
+  .familyGathering .h4opacity_1 {
+    width: 200px;
+    opacity: 0.5;
+    left: 500px;
+  }
+  .familyGathering .rectangle4 {
+    width: 50px;
+    height: 1px;
+    background: #9E7F66;
+    position: absolute;
+    left: -590px;
+    top: -75px;
+  }
+  .reservationSection {
+    width: 768px;
+    position: relative;
+  }
+  .reservationSection .reservationImage, .reservationSection img {
+    width: 768px;
+    height: 300px;
+    position: relative;
+  }
+  .reservationSection .reservationImage .blackButton, .reservationSection img .blackButton {
+    position: absolute;
+    top: 180px;
+    left: 270px;
+  }
+  .reservationSection .reservationImage .reservationText, .reservationSection img .reservationText {
+    position: absolute;
+    width: 650px;
+    height: 48px;
+    z-index: 1;
+    color: white;
+    left: 80px;
+    top: 55px;
+  }
+  .reservationSection .contact {
+    width: 768px;
+    height: 328px;
+    position: absolute;
+    top: 290px;
+  }
+  .reservationSection .contact .smallLogo, .reservationSection .contact img {
+    position: absolute;
+    left: 20px;
+    top: 30px;
+    width: 103px;
+    height: 40px;
+  }
+  .reservationSection .contact .address {
+    width: 244px;
+    height: 60px;
+    color: #FFF;
+    position: absolute;
+    left: 300px;
+    top: 55px;
+    z-index: 1;
+  }
+  .reservationSection .contact .program {
+    width: 446px;
+    height: 60px;
+    color: #FFF;
+    position: absolute;
+    z-index: 1;
+    left: 300px;
+    top: 180px;
+  }
+  .specialEvents {
+    display: none;
+  }
+  .socialEvents {
+    display: none;
+  }
+  .bookingSection {
+    width: 768px;
+  }
+  .bookingSection .bookingImage {
+    position: relative;
+  }
+  .bookingSection .bookingImage .image {
+    width: 768px;
+    opacity: 1;
+    filter: brightness(30%);
+  }
+  .bookingSection .bookingImage .dineLogo {
+    position: absolute;
+    z-index: 1;
+    top: 40px;
+    left: 30px;
+  }
+  .bookingSection .bookingImage .bookingText {
+    color: #FFF;
+    position: absolute;
+    width: 573px;
+    height: 80px;
+    left: 110px;
+    top: 60px;
+    text-align: center;
+  }
+  .bookingSection .bookingRectangle {
+    display: none;
+  }
+  .bookingSection .burgerMenuBooking {
+    display: none;
+  }
+  .bookingSection .bookingForm {
+    height: 545px;
+    width: 540px;
+    position: absolute;
+    top: 400px;
+    left: 110px;
+    background-color: #FFF;
+  }
+  .bookingSection .bookingForm #name {
+    height: 43px;
+    width: 444px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #8E8E8E;
+    margin-top: 50px;
+    margin-left: 48px;
+  }
+  .bookingSection .bookingForm #email {
+    height: 43px;
+    width: 444px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #8E8E8E;
+    margin-left: 48px;
+    margin-top: 34px;
+  }
+  .bookingSection .bookingForm .pickDate {
+    display: flex;
+    margin-left: 48px;
+    text-align: center;
+  }
+  .bookingSection .bookingForm .pickTime {
+    display: flex;
+    margin-left: 48px;
+  }
+  .bookingSection .bookingForm #day {
+    width: 80px;
+    height: 43px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #8E8E8E;
+    margin-right: 16px;
+    margin-left: 62px;
+  }
+  .bookingSection .bookingForm #month {
+    width: 80px;
+    height: 43px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #8E8E8E;
+    margin-right: 16px;
+  }
+  .bookingSection .bookingForm #year {
+    width: 97px;
+    height: 43px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #8E8E8E;
+  }
+  .bookingSection .bookingForm #hours {
+    width: 80px;
+    height: 43px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #8E8E8E;
+    margin-right: 16px;
+    margin-left: 62px;
+  }
+  .bookingSection .bookingForm #minutes {
+    width: 80px;
+    height: 43px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #8E8E8E;
+    margin-right: 16px;
+  }
+  .bookingSection .bookingForm .phoneNumber {
+    display: flex;
+    margin-left: 48px;
+  }
+  .bookingSection .bookingForm #phoneNumber {
+    width: 180px;
+    height: 43px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #8E8E8E;
+    margin-left: 25px;
+  }
+  .bookingSection .bookingForm .guestsNumber {
+    display: flex;
+    margin-left: 48px;
+  }
+  .bookingSection .bookingForm #guests {
+    width: 150px;
+    height: 43px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #8E8E8E;
+    margin-left: 25px;
+  }
+  .bookingSection .bookingForm .reservationButtonWhite {
+    margin-left: 48px;
+  }
+  .bookingSection .contactBooking {
+    position: relative;
+    width: 768px;
+    height: 328px;
+    background-color: black;
+    top: 1000px;
+  }
+  .bookingSection .addressBooking {
+    width: 244px;
+    height: 84px;
+    color: #FFF;
+    position: absolute;
+    left: 300px;
+    top: 54px;
+    z-index: 1;
+  }
+  .bookingSection .programBooking {
+    width: 446px;
+    height: 84px;
+    color: #FFF;
+    position: absolute;
+    z-index: 1;
+    left: 300px;
+    top: 200px;
+  }
+  .bookingSection .smallLogoBooking {
+    position: absolute;
+    left: 39px;
+    top: 64px;
+  }
+}/*# sourceMappingURL=mediaTablet.css.map */
