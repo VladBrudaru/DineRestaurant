@@ -1,0 +1,338 @@
+@media only screen and (max-width: 480px) {
+  @import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;800;900&display=swap");
+  body {
+    font-family: "League Spartan";
+  }
+  h1 {
+    font-size: 80px;
+    line-height: 80px;
+    font-weight: 300;
+    letter-spacing: -1px;
+    font-family: League Spartan;
+  }
+  h2 {
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 700;
+    font-family: League Spartan;
+    letter-spacing: -0.5px;
+  }
+  h3 {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    font-family: League Spartan;
+    letter-spacing: -0.25px;
+  }
+  h4 {
+    font-size: 17px;
+    line-height: 28px;
+    font-weight: 600;
+    font-family: League Spartan;
+    letter-spacing: 2.5px;
+    color: rgb(76, 76, 76);
+  }
+  .text1 {
+    font-size: 20px;
+    line-height: 30px;
+    font-family: League Spartan;
+    font-weight: 400;
+  }
+  .text2 {
+    font-size: 16px;
+    line-height: 26px;
+    font-family: League Spartan;
+    font-weight: 400;
+  }
+  .text1_2 {
+    font-size: 20px;
+    line-height: 30px;
+    font-family: League Spartan;
+    font-weight: 400;
+  }
+  .blackButton {
+    border: 2px solid white;
+    color: #FFF;
+    height: 64px;
+    width: 245px;
+    background: transparent;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 16px;
+    letter-spacing: 2.5px;
+  }
+  .blackButton:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+  }
+  .blackButton:disabled {
+    opacity: 0.5;
+  }
+  .whiteButton {
+    border: 1px solid black;
+    color: white;
+    height: 64px;
+    width: 245px;
+    background: black;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 16px;
+    letter-spacing: 2.5px;
+  }
+  .whiteButton:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+  }
+  .whiteButton:disabled {
+    opacity: 0.5;
+  }
+  .reservationButtonWhite {
+    border: 1px solid black;
+    color: #FFF;
+    height: 64px;
+    width: 444px;
+    background: black;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 28px;
+    letter-spacing: 2.5px;
+    text-align: center;
+  }
+  .reservationButtonBlack {
+    border: 2px solid white;
+    color: black;
+    height: 64px;
+    width: 444px;
+    background: transparent;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 28px;
+    letter-spacing: 2.5px;
+    text-align: center;
+  }
+  .reservationButtonWhite:hover {
+    background-color: #FFF;
+    cursor: pointer;
+    color: black;
+  }
+  .menuButton {
+    border: 2px solid white;
+    color: #FFF;
+    height: 64px;
+    width: 245px;
+    background: transparent;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 16px;
+    letter-spacing: 2.5px;
+  }
+  .menuButton:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+  }
+  .bookingSection {
+    width: 375px;
+  }
+  .bookingSection .bookingImage {
+    position: relative;
+  }
+  .bookingSection .bookingImage .image {
+    width: 375px;
+    opacity: 1;
+    filter: brightness(30%);
+  }
+  .bookingSection .bookingImage .dineLogo {
+    position: absolute;
+    z-index: 1;
+    top: 50px;
+    left: 140px;
+  }
+  .bookingSection .bookingImage .bookingText {
+    color: #FFF;
+    position: absolute;
+    width: 327px;
+    height: 80px;
+    left: 25px;
+    top: 60px;
+    text-align: center;
+  }
+  .bookingSection .bookingImage .bookingText h1 {
+    font-size: 32px;
+    font-weight: 300;
+    padding-top: 20px;
+    margin-bottom: -20px;
+  }
+  .bookingSection .bookingRectangle {
+    display: none;
+  }
+  .bookingSection .burgerMenuBooking {
+    display: none;
+  }
+  .bookingSection .bookingForm {
+    height: 600px;
+    width: 327px;
+    position: absolute;
+    top: 450px;
+    left: 25px;
+    background-color: #FFF;
+  }
+  .bookingSection .bookingForm #name {
+    height: 43px;
+    width: 263px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #8E8E8E;
+    margin-top: 10px;
+    margin-left: 18px;
+  }
+  .bookingSection .bookingForm #email {
+    height: 43px;
+    width: 263px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #8E8E8E;
+    margin-left: 18px;
+    margin-top: 14px;
+  }
+  .bookingSection .bookingForm .pickDate {
+    position: absolute;
+    text-align: center;
+    top: 140px;
+    left: -30px;
+  }
+  .bookingSection .bookingForm .pickTime {
+    position: absolute;
+    left: -30px;
+    top: 250px;
+  }
+  .bookingSection .bookingForm #day {
+    width: 73px;
+    height: 43px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #8E8E8E;
+    position: absolute;
+    top: 50px;
+    left: -60px;
+  }
+  .bookingSection .bookingForm #month {
+    width: 73px;
+    height: 43px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #8E8E8E;
+    position: absolute;
+    top: 50px;
+    left: 90px;
+  }
+  .bookingSection .bookingForm #year {
+    width: 88px;
+    height: 43px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #8E8E8E;
+    position: absolute;
+    top: 50px;
+    left: 180px;
+  }
+  .bookingSection .bookingForm #hours {
+    width: 73px;
+    height: 43px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #8E8E8E;
+    position: absolute;
+    top: 45px;
+    left: -60px;
+  }
+  .bookingSection .bookingForm #minutes {
+    width: 73px;
+    height: 43px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #8E8E8E;
+    position: absolute;
+    top: 45px;
+    left: 100px;
+  }
+  .bookingSection .bookingForm .phoneNumber {
+    position: absolute;
+    top: 350px;
+    left: -30px;
+  }
+  .bookingSection .bookingForm #phoneNumber {
+    width: 120px;
+    height: 43px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #8E8E8E;
+    position: absolute;
+    top: 50px;
+    left: -25px;
+  }
+  .bookingSection .bookingForm .guestsNumber {
+    position: absolute;
+    top: 450px;
+    left: -30px;
+  }
+  .bookingSection .bookingForm #guests {
+    position: absolute;
+    width: 50px;
+    height: 43px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #8E8E8E;
+    top: 0px;
+    left: 140px;
+  }
+  .bookingSection .bookingForm .reservationButtonWhite {
+    position: absolute;
+    top: 520px;
+    left: -20px;
+    width: 263px;
+  }
+  .bookingSection .contactBooking {
+    width: 375px;
+    height: 500px;
+    position: absolute;
+    top: 1100px;
+  }
+  .bookingSection .addressBooking {
+    height: 60px;
+    width: 244px;
+    color: #FFF;
+    position: absolute;
+    left: 70px;
+    top: 140px;
+    z-index: 1;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .bookingSection .programBooking {
+    width: 446px;
+    height: 84px;
+    color: #FFF;
+    position: absolute;
+    z-index: 1;
+    left: -30px;
+    top: 300px;
+    text-align: center;
+  }
+  .bookingSection .smallLogoBooking {
+    position: absolute;
+    left: 140px;
+    top: 60px;
+  }
+}/*# sourceMappingURL=mobileReservation.css.map */

@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1080px){
+@media only screen and (max-width:1080px) and (min-width: 480px){
     @import "typography.scss";
     @import "colors.scss";
     @import "buttons.scss";
@@ -444,3 +444,4 @@
         }
     }
 }
+
