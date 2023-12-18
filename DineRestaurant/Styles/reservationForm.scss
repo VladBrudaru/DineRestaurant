@@ -97,6 +97,7 @@
             margin-top: 50px;
             margin-left: 48px;
         }
+        
         #email{
             height: 43px;
             width: 444px;
@@ -116,36 +117,19 @@
             display: flex;
             margin-left: 48px;
         }
-        #day{
-            width: 80px;
-            height: 43px;
-            border-top: none;
-            border-left: none;
-            border-right: none;
-            border-bottom: 1px solid #8E8E8E;
+        #date{
+            width: 160px;
+            height: 40px;
+            border: none;
+            outline: none;
             margin-right: 16px;
             margin-left: 62px;
+            margin-top: 10px;
+            font-size:20px ;
         }
-        #month{
-            width: 80px;
-            height: 43px;
-            border-top: none;
-            border-left: none;
-            border-right: none;
-            border-bottom: 1px solid #8E8E8E;
-            margin-right: 16px;
-        }
-        #year{
-            width: 97px;
-            height: 43px;
-            border-top: none;
-            border-left: none;
-            border-right: none;
-            border-bottom: 1px solid #8E8E8E;
-            
-        }
+        
         #hours{
-            width: 80px;
+            width: 160px;
             height: 43px;
             border-top: none;
             border-left: none;
@@ -153,16 +137,9 @@
             border-bottom: 1px solid #8E8E8E;
             margin-right: 16px;
             margin-left: 62px;
+            font-size: 20px;
         }
-        #minutes{
-            width: 80px;
-            height: 43px;
-            border-top: none;
-            border-left: none;
-            border-right: none;
-            border-bottom: 1px solid #8E8E8E;
-            margin-right: 16px;
-        }
+    
         .phoneNumber{
             display: flex;
             margin-left: 48px;
@@ -192,5 +169,6 @@
         .reservationButtonWhite{
             margin-left: 48px;
         }
+        
     }
 }

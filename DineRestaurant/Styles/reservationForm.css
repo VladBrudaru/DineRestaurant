@@ -266,35 +266,18 @@ h4 {
   display: flex;
   margin-left: 48px;
 }
-.bookingSection .bookingForm #day {
-  width: 80px;
-  height: 43px;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  border-bottom: 1px solid #8E8E8E;
+.bookingSection .bookingForm #date {
+  width: 160px;
+  height: 40px;
+  border: none;
+  outline: none;
   margin-right: 16px;
   margin-left: 62px;
-}
-.bookingSection .bookingForm #month {
-  width: 80px;
-  height: 43px;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  border-bottom: 1px solid #8E8E8E;
-  margin-right: 16px;
-}
-.bookingSection .bookingForm #year {
-  width: 97px;
-  height: 43px;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  border-bottom: 1px solid #8E8E8E;
+  margin-top: 10px;
+  font-size: 20px;
 }
 .bookingSection .bookingForm #hours {
-  width: 80px;
+  width: 160px;
   height: 43px;
   border-top: none;
   border-left: none;
@@ -302,15 +285,7 @@ h4 {
   border-bottom: 1px solid #8E8E8E;
   margin-right: 16px;
   margin-left: 62px;
-}
-.bookingSection .bookingForm #minutes {
-  width: 80px;
-  height: 43px;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  border-bottom: 1px solid #8E8E8E;
-  margin-right: 16px;
+  font-size: 20px;
 }
 .bookingSection .bookingForm .phoneNumber {
   display: flex;

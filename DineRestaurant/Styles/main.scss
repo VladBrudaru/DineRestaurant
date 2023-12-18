@@ -49,6 +49,34 @@
         top: 600px;
         left: 165px;
     }
+    .loginBtn{
+        position: absolute;
+        top:58px;
+        left: 700px;
+        border: none;
+        color: $white;
+        height:64px;
+        width: 245px;
+        background: transparent;
+        font-weight: 600;
+        font-size: 17px;
+        line-height: 16px;
+        letter-spacing: 2.5px;
+    }
+    .loginBtn:hover{
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    i{
+        position: absolute;
+        top: 74px;
+        left: 740px;
+        font-size: 30px;
+        color:white ;
+    }
+    i:hover{
+        cursor: pointer;
+    }
 }
 
 .description{
@@ -422,30 +450,14 @@
             left: 170px;
             top:150px
         }
-    }
-    .bookingRectangle{
-        position: absolute;
-        top: 600px;
-        left: 0px;
-        width: 993px;
-        height: 320px;
-        background-color: $rectangle;
-        border-radius: 0px 0px 100px 0px;
-        opacity: 0.0774;
-    }
-    .burgerMenuBooking{
-        width: 160px;
-        height: 76px;
-        position: absolute;
-        top: 766px;
-        left: 655px;
+        
     }
     .contactBooking{
         position: relative;
         width: 1440px;
         height: 240px;
         background-color:black;
-        top: 920px;
+        top: 600px;
     }
     .addressBooking{
         width: 244px;
@@ -471,120 +483,4 @@
         top: 55px;
     }
     
-    
-    
-    .bookingForm{
-        height: 545px;
-        width: 540px;
-        position: absolute;
-        top: 258px;
-        right: 165px;
-        background-color: $white;
-        #name{
-            height: 43px;
-            width: 444px;
-            border-top: none;
-            border-left: none;
-            border-right: none;
-            border-bottom: 1px solid #8E8E8E;
-            margin-top: 50px;
-            margin-left: 48px;
-        }
-        #email{
-            height: 43px;
-            width: 444px;
-            border-top: none;
-            border-left: none;
-            border-right: none;
-            border-bottom: 1px solid #8E8E8E;
-            margin-left: 48px;
-            margin-top: 34px;
-        }
-        .pickDate{
-            display: flex;
-            margin-left: 48px;
-            text-align: center;
-        }
-        .pickTime{
-            display: flex;
-            margin-left: 48px;
-        }
-        #day{
-            width: 80px;
-            height: 43px;
-            border-top: none;
-            border-left: none;
-            border-right: none;
-            border-bottom: 1px solid #8E8E8E;
-            margin-right: 16px;
-            margin-left: 62px;
-        }
-        #month{
-            width: 80px;
-            height: 43px;
-            border-top: none;
-            border-left: none;
-            border-right: none;
-            border-bottom: 1px solid #8E8E8E;
-            margin-right: 16px;
-        }
-        #year{
-            width: 97px;
-            height: 43px;
-            border-top: none;
-            border-left: none;
-            border-right: none;
-            border-bottom: 1px solid #8E8E8E;
-            
-        }
-        #hours{
-            width: 80px;
-            height: 43px;
-            border-top: none;
-            border-left: none;
-            border-right: none;
-            border-bottom: 1px solid #8E8E8E;
-            margin-right: 16px;
-            margin-left: 62px;
-        }
-        #minutes{
-            width: 80px;
-            height: 43px;
-            border-top: none;
-            border-left: none;
-            border-right: none;
-            border-bottom: 1px solid #8E8E8E;
-            margin-right: 16px;
-        }
-        .phoneNumber{
-            display: flex;
-            margin-left: 48px;
-        }
-        #phoneNumber{
-            width: 180px;
-            height: 43px;
-            border-top: none;
-            border-left: none;
-            border-right: none;
-            border-bottom: 1px solid #8E8E8E;
-            margin-left: 25px;
-        }
-        .guestsNumber{
-            display: flex;
-            margin-left: 48px;
-        }
-        #guests{
-            width: 150px;
-            height: 43px;
-            border-top: none;
-            border-left: none;
-            border-right: none;
-            border-bottom: 1px solid #8E8E8E;
-            margin-left: 25px;
-        }
-        .reservationButtonWhite{
-            margin-left: 48px;
-        }
-    }
-}    
-
+}   

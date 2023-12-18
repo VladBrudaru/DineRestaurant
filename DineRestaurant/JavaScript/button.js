@@ -23,3 +23,10 @@ for (let i=0;i<menuBtn.length;i++){
   })
 }
 
+const loginButton=document.getElementsByClassName("loginBtn");
+
+for (let i=0;i<loginButton.length;i++){
+  loginButton[i].addEventListener ('click', () => {
+  const tab = window.open(`http://127.0.0.1:5500/DineRestaurant/loginPage.html`)
+  })
+}

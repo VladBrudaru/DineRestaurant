@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="Styles/mobile.css">
         <script src="JavaScript/main.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     </head>
     <body>
         <section class="home">
@@ -19,6 +19,8 @@
             <br>
             <button class="menuButton">SEE OUR MENU</button>
             <img class="imagineFundalHome" src="Images/image1.png">
+            <button type="button" class="loginBtn">SIGN IN</button>
+            <i class='bx bxs-user'></i>
         </section>
         <section class="description">
             <div class="rectangle"></div>
@@ -164,9 +166,6 @@
                     <p class="text1">We can’t wait to host you. If you have any special requirements please feel free to call on the phone number below. We’ll be happy to accommodate you.</p>
                 </div>
             </div>
-            <div class="bookingRectangle"></div>
-            <img class="burgerMenuBooking" src="Images/burgerMenu.png">
-
             <div class="contactBooking">
                 <div class="smallLogoBooking">
                     <img src="Images/logo2.svg">
@@ -182,36 +181,9 @@
                     <p class="text2">SAT - SUN: 09:00 AM - 11:30 PM</p>
                 </div>
             </div>
-            <form class="bookingForm">
-                <input type="text" id="name" name="name" placeholder="Name">
-                <br>
-                <input type="text" id="email" name="email" placeholder="Email">
-                <br>
-                <div class="pickDate">
-                    <p class="text1">Pick a date</p> 
-                    <input type="number" id="day" name="day" placeholder="DD" min="1" max="31">
-                    <input type="number" id="month" name="month" placeholder="MM" min="1" max="12">
-                    <input type="number" id="year" name="year" placeholder="YYYY" min="2023" max="2024">
-                </div>
-                <div class="pickTime">
-                    <p class="text1">Pick a time</p>
-                    <input type="number" id="hours" name="hours" placeholder="09" min="09" max="21">
-                    <input type="number" id="minutes" name="minutes" placeholder="00" min="00" max="59">
-                    
-                </div>
-                <div class="phoneNumber">
-                    <p class="text1">Phone number:</p>
-                    <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="Telephone Number" maxlength="10">
-                </div>
-                <div class="guestsNumber">
-                    <p class="text1">Number of Guests:</p>
-                    <input type="number" id="guests" name="guests" placeholder="1" min="1" max="10">
-                </div>
-                <button class="reservationButtonWhite">MAKE RESERVATION</button>
-                
-                
-            </form>
+            
         </section>
         <script src="JavaScript/button.js"></script>
+        <script src="JavaScript/reservationForm2.js"></script>
     </body>
 </html>
